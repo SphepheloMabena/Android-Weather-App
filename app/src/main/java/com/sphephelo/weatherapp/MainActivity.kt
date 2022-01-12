@@ -470,6 +470,9 @@ class MainActivity : AppCompatActivity() {
                 {
                     loader.visibility= View.GONE;
                     background.visibility=View.VISIBLE;
+                }else
+                {
+                    loading()
                 }
 
             },3000
